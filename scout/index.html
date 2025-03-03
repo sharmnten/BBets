@@ -51,37 +51,44 @@
         .button:active {
             transform: translateY(2px);  /* Slight push down effect when clicked */
         }
+/*.quarter {
+  display: grid;
+  grid-template-columns: 50% 50%; 
+  grid-template-rows: 50% 50%;    
+  height: 100vh;                  
+}
+*/
+/*
+.btn {
+  width: 100%;    
+  height: 100%;  
+  padding: 20px;
+  font-size: 16px;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.btn:hover {
+  background-color: #45a049;
+}*/
+
     </style>
     <link rel="script" src="./script.js"
 </head>
 <body>
-    <div id ="home">
-        
     <button id="reef" class="button">Reef</button>
     <button id="algae" class="button">Algae</button>
-    </div>
-    <div id = "algae_menu">
-        
-    </div>
-    <div id="reef_menu">
-        <button class="button">L1</button>
-        <button class="button">L2</button>
-        <button class="button">L3</button>
-        <button class="button">L4</button>
-    </div>
-
+<!--  <div class="quarter"></div>
+  <button class="btn">L1</button>
+  <button class="btn">L2</button>
+  <button class="btn">L3</button>
+  <button class="btn">L4</button>
+  </div>
+  -->
 
 </body>
 </html>
-<script>
-    document.getElementById("reef").onclick = function() {
-    if (navigator.vibrate) {
-        navigator.vibrate(200);
-    }
-};
-document.getElementById("algae").onclick = function() {
-    if (navigator.vibrate) {
-        navigator.vibrate(200);
-    }
-};
-</script>
