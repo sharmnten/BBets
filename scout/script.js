@@ -1,9 +1,9 @@
-document.getElementById("button1").onclick = function() {
+document.getElementById("reef").onclick = function() {
     if (navigator.vibrate) {
         navigator.vibrate(200);
     }
 };
-document.getElementById("button2").onclick = function() {
+document.getElementById("algae").onclick = function() {
     if (navigator.vibrate) {
         navigator.vibrate(200);
     }
