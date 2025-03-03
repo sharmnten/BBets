@@ -5,6 +5,6 @@ document.getElementById("reef").onclick = function() {
 };
 document.getElementById("algae").onclick = function() {
     if (navigator.vibrate) {
-        navigator.vibrate(200);
+        navigator.vibrate(20000);
     }
 };
