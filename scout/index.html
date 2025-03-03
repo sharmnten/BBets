@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scout-BadgerBets</title>
+    <style>
+        /* Set the body to have no margin and make it take up the full viewport height */
+        body {
+            margin: 0;
+            height: 100vh;
+            background-color: black;
+            display: flex;
+            flex-direction: column;
+            font-family: 'Arial', sans-serif; /* Modern font */
+        }
+
+        /* Style for each button to take up half the screen */
+        .button {
+            flex: 1;
+            font-size: 18px;
+            font-weight: bold;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: none;
+            cursor: pointer;
+            transition: all 0.3s ease;  /* Smooth transition */
+            color: white;
+            border-radius: 10px;  /* Rounded corners */
+            padding: 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
+        }
+
+        /* Button 1 - Green */
+        #button1 {
+            background-color: #e3457f;
+        }
+
+        /* Button 2 - Blue */
+        #button2 {
+            background-color: #2bbaa8;
+        }
+
+        /* Hover effects */
+        .button:hover {
+            transform: translateY(-5px); /* Slight lift on hover */
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);  /* Deeper shadow on hover */
+        }
+
+        .button:active {
+            transform: translateY(2px);  /* Slight push down effect when clicked */
+        }
+    </style>
+</head>
+<body>
+
+    <button id="reef" class="button">Reef</button>
+    <button id="algae" class="button">Algae</button>
+    
+</body>
+</html>
