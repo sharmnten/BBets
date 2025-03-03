@@ -3,9 +3,7 @@ document.getElementById("reef").onclick = function() {
         navigator.vibrate(200);
     }
 };
-document.getElementById("algae").onclick = function() {
-    bubbleHapticEffect();
-};
+document.getElementById("algae").onclick = bubbleHapticEffect();
 function bubbleHapticEffect() {
     // A series of vibration patterns to simulate a "bubbling" effect
     const vibrationPattern = [
